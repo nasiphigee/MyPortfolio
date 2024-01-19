@@ -859,15 +859,6 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-
-    .education{
-        display: none;
-        
-    }
-    .experience{
-       max-width: 100%;
-       display: block;
-    }
  
 }
 
