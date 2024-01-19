@@ -179,8 +179,7 @@ ul{
     top: 0;
     right: 0;
 }
-.aside .nav-toggler
-{
+.aside .nav-toggler {
     height: 40px;
     width: 45px;
     border: 1px solid var(--bg-black-50);
@@ -195,16 +194,15 @@ ul{
     justify-content: center;
 }
 
-.aside .nav-toggler span
-{
+.aside .nav-toggler span {
     height: 2px;
     width: 18px;
     background: var(--skin-color);
     display: inline-block;
     position: relative;
 }
-.aside .nav-toggler span::before
-{
+
+.aside .nav-toggler span::before {
     content: '';
     height: 2px;
     width: 18px;
@@ -213,8 +211,8 @@ ul{
     top: -6px;
     left: 0;
 }
-.aside .nav-toggler span::after
-{
+
+.aside .nav-toggler span::after {
     content: '';
     height: 2px;
     width: 18px;
@@ -223,6 +221,7 @@ ul{
     top: 6px;
     left: 0;
 }
+
 .aside .nav
 {
     margin-top: 50px;
@@ -555,8 +554,6 @@ h3.my-profession
 }
 /*service */
 
-
-
 .service .container
 {
     padding-bottom: 40px;
@@ -816,6 +813,11 @@ h3.my-profession
     {
         left: -270px;
     }
+
+    .aside .nav li a {
+        font-size: 14px; /* Smaller font size, adjust as needed */
+    }
+
     .main-content
     {
         padding-left: 0;
@@ -844,6 +846,33 @@ h3.my-profession
     {
         display: none;
     }
+
+    .aside .nav-toggler {
+        display: flex; /* Show the hamburger menu */
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 100;
+    }
+
+    .aside .nav {
+        display: none; /* Hide the regular nav */
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: white; /* Or any background color */
+        z-index: 99;
+    }
+
+    .aside .nav li {
+        text-align: center;
+    }
+
+    .aside .nav li a {
+        display: block;
+        border-bottom: none;
+    }
 }
 @media (max-width: 767px)
 {   
@@ -859,6 +888,34 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
- 
+
+    .aside .nav-toggler {
+        display: flex; /* Show hamburger menu on smaller screens */
+        position: fixed;
+        top: 20px;
+        left: 20px; /* Adjust position as needed */
+        z-index: 100; /* To ensure it's above other content */
+    }
+
+    .aside .nav {
+        display: none; /* Hide regular navigation menu */
+        position: fixed;
+        top: 60px; /* Below the hamburger menu */
+        left: 0;
+        width: 100%;
+        background: white; /* Or any desired background color */
+        z-index: 99;
+    }
+
+    .aside .nav li {
+        text-align: center; /* Center-align the menu items */
+    }
+
+    .aside .nav li a {
+        display: block;
+        border-bottom: none; /* Or keep it, if you like the style */
+    }
 }
+ 
+
 
