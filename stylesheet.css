@@ -185,7 +185,7 @@ ul{
     border: 1px solid var(--bg-black-50);
     cursor: pointer;
     position:fixed;
-    margin-left: 400px;
+    margin-left: 30px;
     top: 20px;
     display: none;
     border-radius: 5px;
