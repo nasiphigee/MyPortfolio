@@ -358,10 +358,6 @@ h3.my-profession
 }
 
 /*    About     */
-.about .container{
-    padding: 43px;
-
-}
 .about .about-content
 {
     flex: 0 0 100%;
@@ -560,7 +556,7 @@ h3.my-profession
 
 .service .container
 {
-    padding: 43px;
+    padding-bottom: 40px;
     
 }
 .service .service-item
@@ -722,11 +718,6 @@ h3.my-profession
     height: 100%;
  }
 /*CONTACT*/
-.contact .container
-{
-
-        padding: 43px;
-}
 .contact-title
 {
     color: var(--skin-color);
