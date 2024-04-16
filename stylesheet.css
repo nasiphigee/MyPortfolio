@@ -363,6 +363,10 @@ h3.my-profession
     flex: 0 0 100%;
     max-width: 100%;
 }
+.section-title h2
+{
+    margin-left: 50px;
+}
 .about .about-content .about-text
 {
     flex: 0 0 100%;
@@ -374,6 +378,7 @@ h3.my-profession
     margin-bottom: 15px;
     font-weight: 700;
     color: var(--text-black-900);
+    margin-left: 20px;
 }
 .about .about-content .about-text h3 span
 {
@@ -384,12 +389,14 @@ h3.my-profession
     font-size: 16px;
     line-height: 25px;
     color:var(--text-black-700);
+    margin-left: 20px;
 }
 .about .about-content .personal-info
 {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 90%;
+    max-width: 50%;
     margin-top: 40px;
+    margin-left: 20px;
 }
 .about .about-content .personal-info .info-item
 {
@@ -482,6 +489,7 @@ h3.my-profession
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
+    margin-left: 50px;
 }
 .about .about-content .timeline-box
 {
@@ -496,6 +504,7 @@ h3.my-profession
     border-radius: 10px;
     width: 100%;
     position: relative;
+    margin-left: 20px;
 }
 .about .about-content .timeline .timeline-item
 {
@@ -544,6 +553,7 @@ h3.my-profession
     margin-bottom: 15px;
     text-transform: capitalize;
     color: var(--text-black-900);
+
 }
 .about .about-content .timeline .timeline-text
 {
@@ -557,6 +567,7 @@ h3.my-profession
 .service .container
 {
     padding-bottom: 40px;
+    
     
 }
 .service .service-item
@@ -573,6 +584,8 @@ h3.my-profession
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3S ease;
+    margin-left: 20px;
+
 }
 .service .service-item .service-item-inner:hover
 {
@@ -587,6 +600,7 @@ h3.my-profession
      margin: 0 auto 30px;
      text-align: center;
      transition: all 0.3s ease;
+
 }   
 .service .service-item .service-item-inner .icon .fa
 {
@@ -793,6 +807,8 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
+    margin-left: 20px;
+
 }
 .contact .contact-form .form-item .form-control:focus
 {
@@ -806,6 +822,8 @@ h3.my-profession
 {
     height: 50px;
     padding: 0 50px;
+    margin-left: 20px;
+
 }
 @media (max-width:1199px)
 {
